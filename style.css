@@ -1,0 +1,40 @@
+.centered {
+  text-align: center;
+}
+
+.os-heading {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.os-linux {
+  font-family: "Open Sans", sans-serif;
+}
+
+.os-windows {
+  font-family: "Segoe Alt";
+  src: url(https://fonts.gstatic.com/l/font?kit=ZXuie1cAuKOQKDcsmQFY5fluDgZz-JClwoA4EQ&skey=e94b1b9fb05029e6&v=v1)
+    format("woff2");
+}
+
+.os-mac {
+  font-family: "Neue Helvetica";
+  src: url(https://fonts.gstatic.com/l/font?kit=eLGHP-ryLhS1SWbVo8tNu6ueBFHo1ckX1_aBtrr2edMqOP_qvjY&skey=45b1db4587204d1f&v=v4)
+    format("woff2");
+}
+
+.hr-90 {
+  width: 90%;
+}
+
+.nounderline {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.nounderline:hover {
+  text-decoration: none;
+  color: inherit;
+}
